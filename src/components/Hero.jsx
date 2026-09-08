@@ -5,8 +5,8 @@ export default function Hero() {
   return (
     <section id="top" className="hero-section">
       <div className="hero-copy">
-        <p className="hero-kicker">ยินดีที่ได้รู้จัก ผม</p>
-        <h1>{profile.name}</h1>
+        <p className="hero-kicker hero-line-from-right">ยินดีที่ได้รู้จัก ผม</p>
+        <h1 className="hero-line-from-left">{profile.name}</h1>
         <p className="hero-role">Full Stack Developer</p>
         <p className="hero-bio">{profile.heroBio}</p>
         <div className="hero-actions">
@@ -16,6 +16,10 @@ export default function Hero() {
         <div className="connect-row">
           <span>CONNECT</span>
           <div><a href={profile.github} target="_blank" rel="noreferrer" aria-label="Github"><Github size={21}/></a><a href="#contact" aria-label="Instagram"><Instagram size={21}/></a><a href="#contact" aria-label="LinkedIn"><Linkedin size={21}/></a></div>
+        </div>
+        <div className="hero-marquee" aria-label={`${profile.name} Full Stack Developer`}>
+          <div className="hero-marquee-line hero-marquee-line-left"><span>{profile.name} · {profile.name} · </span></div>
+          <div className="hero-marquee-line hero-marquee-line-right"><span>FULL STACK DEVELOPER · FULL STACK DEVELOPER · </span></div>
         </div>
       </div>
       <div className="hero-visual">

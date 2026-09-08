@@ -1,7 +1,7 @@
 export const profile = {
   name: "ธนาภัทร แก้วเรือง",
   role: "วิทยาการคอมพิวเตอร์ · Full Stack Developer",
-  location: "พลัมคอนโด แจ้งวัฒนะ",
+  location: "Open to Work",
   address: "พลัมคอนโด แจ้งวัฒนะ",
   phone: "094 325 3900",
   email: "thanaphat01ice@gmail.com",
@@ -139,7 +139,7 @@ export const projects = [
 ];
 
 export const skills = [
-  { group: "Languages", items: ["JavaScript", "Python", "Java", "C#", "HTML", "CSS"] },
+  { group: "Languages", items: ["JavaScript", "Python", "C#", "HTML", "CSS"] },
   { group: "Frameworks & Libraries", items: ["React", "Next.js", "Node.js", "Tailwind CSS"] },
   { group: "APIs & Databases", items: ["RESTful APIs", "MySQL", "MongoDB", "SQL"] },
   { group: "UX/UI & Design", items: ["Figma", "Wireframing", "Interactive Prototyping", "User Flow"] },
