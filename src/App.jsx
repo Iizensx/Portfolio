@@ -8,6 +8,7 @@ import Education from "./components/Education";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import ProjectDetail from "./components/ProjectDetail";
+import GlowingParticles from "./components/GlowingParticles";
 import { projects } from "./data/resumeData";
 
 export default function App() {
@@ -25,6 +26,7 @@ export default function App() {
   if (project) {
     return (
       <div className={`site-shell project-shell ${isDark ? "theme-dark" : "theme-light"}`}>
+        <GlowingParticles />
         <ProjectDetail project={project} />
       </div>
     );
@@ -32,6 +34,7 @@ export default function App() {
 
   return (
     <div className={`site-shell ${isDark ? "theme-dark" : "theme-light"}`}>
+      <GlowingParticles />
       <Header isDark={isDark} onToggleTheme={toggleTheme} />
       <main className="site-main">
         <Hero />
