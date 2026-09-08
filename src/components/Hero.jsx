@@ -11,7 +11,7 @@ export default function Hero() {
         <p className="hero-bio">{profile.heroBio}</p>
         <div className="hero-actions">
           <a href="#projects" className="button-primary">ดูผลงาน <ArrowRight size={18} /></a>
-          <a href="#contact" className="button-secondary">ติดต่อผม</a>
+          <a href="#contact" className="button-secondary">ติดต่อ</a>
         </div>
         <div className="connect-row">
           <span>CONNECT</span>

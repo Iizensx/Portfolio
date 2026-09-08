@@ -9,7 +9,7 @@ export default function Projects() {
 
   return (
     <section id="projects" className="content-section scroll-mt-20">
-      <div className="project-heading"><SectionLabel n="02">ผลงานที่คัดสรร</SectionLabel><p>{projects.length} PROJECTS</p></div>
+      <div className="project-heading"><SectionLabel n="02">ผลงาน / โปรเจกต์</SectionLabel><p>{projects.length} PROJECTS</p></div>
       <div className="projects-grid">
         {projects.map((p, index) => (
           <article key={p.title} className={`project-tile tile-${index}`}>
@@ -41,3 +41,4 @@ export default function Projects() {
     </section>
   );
 }
+
