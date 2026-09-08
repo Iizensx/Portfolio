@@ -16,7 +16,7 @@ export default function About() {
     <section id="about" className="about-section scroll-mt-20">
       <div className="about-heading">
         <p>DISCOVER</p>
-        <h2>เกี่ยวกับผม</h2>
+        <h2>ข้อมูลส่วนตัว</h2>
       </div>
       <div className="about-showcase">
         <div className="about-photo-wrap">
@@ -47,3 +47,4 @@ export default function About() {
     </section>
   );
 }
+// อันนี้คือคอมเมนต์บรรทัดเดียว
