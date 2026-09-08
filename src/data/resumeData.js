@@ -48,7 +48,7 @@ export const projects = [
   },
   {
     slug: "pet-management-system",
-    image: "/images/Info-HemeyPets-Info.png",
+    image: "/images/PetManagementSystem.png",
     images: ["/images/PetManagementSystem.png", "/images/Info-HemeyPets-Info.png", "/images/Pet1.jpg", "/images/Pet2.jpg"],
     imageAlt: "ภาพหน้าจอระบบจัดการร้านรับฝากสัตว์เลี้ยง HomeyPets",
     date: "2568",
